@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 600px;
+    max-width: 1220px;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(90deg, rgba(96,163,238,1) 0%, rgba(5,160,164,1) 38%, rgba(57,184,214,1) 96%);
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+.main__table{
+    width: 470px;
+    height: 540px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 80px 0 80px 0;
+    font-family: ;
+}
+.title{
+    color: rgba(57,184,214,1);
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 900px;
+    text-align: center;
+    padding: 70px 0;
+}
+.text{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-underline-offset: 15px;
+    width: 400px ;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.password{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    width: 400px ;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.checkbox{
+    display: flex;
+    align-self: flex-start;
+    color: grey;
+    gap: 5px;
+    padding: 25px 0 20px 50px;
+}
+.button{
+    background: linear-gradient(90deg, rgba(96,163,238,1) 0%, rgba(5,160,164,1) 38%, rgba(57,184,214,1) 96%);
+    padding: 15px 200px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+}
+.end__text{
+    padding-top: 30px;
+}
+.link{
+    text-decoration: none;
+}
+/* 1st  work................................................. */
+.registration{
+    margin: auto;
+    background: linear-gradient(90deg, rgba(96,238,103,1) 11%, rgba(36,234,69,1) 96%);
+    max-width: 1220px;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+.registration__tab{
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.reg__list{
+    width: 450px;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 30px 0;
+}
+.reg__usern{
+    border: none;
+    text-align: start;
+    padding: 25px 125px 25px 20px;
+    background-color: rgb(224, 224, 224);
+    font-size: 25px;
+}
+.reg__password{
+    border: none;
+    padding: 25px 125px 25px 20px;
+    background-color: rgb(224, 224, 224);
+    font-size: 25px;
+}
+.reg__button{
+    background: linear-gradient(90deg, rgb(58, 144, 62) 11%, rgb(50, 161, 68) 96%);
+    color: #fff;
+    padding: 25px 195px;
+    border: none;
+    font-size: 20px;
+}
+.reg__text{
+    color: rgb(211, 203, 203);
+    font-size: 20px;
+}
+.reg__link{
+    text-decoration: none;
+    color: rgb(58, 144, 62);
+}
+/* 2nd work............................................... */
+.document__filling{
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border: 0.5px solid darkgray;
+}
+.filling{
+    width: 800px;
+    height: 900px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px 0;
+}
+.filling__title{
+    font-size: 50px;
+}
+.title__f{
+    font-size: 30px;
+}
+.email{
+    font-size: 20px;
+    padding: 6px 50px 6px 5px;
+}
+.password1{
+    font-size: 20px;
+    padding: 6px 50px 6px 5px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+.radio{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+}
+.option{
+    width: 130px;
+    height: 40px;
+}
+.option__title{
+    font-size: 30px;
+    background-color: rgb(177, 177, 172);
+}
+textarea{
+    resize: none;
+}
+.last__btn{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+}
+/* 3rd work............................................ */
+.travel{
+    width: 900px;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: 0.5px solid darkgray;
+    margin-top: 100px;
+}
+.travel__res{
+    width: 800px;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.res__title{
+    font-size: 40px;
+}
+.mandatory{
+    font-size: 30px;
+}
+.reservation__line{
+    display: flex;
+    flex-direction: column;
+    gap: 7px 0;
+}
+.res__name{
+    font-size: 30px;
+}
+.res__buttons{
+    padding: 7px 80px 15px 5px;
+    font-size: 20px;
+}
+.packages{
+    background-color: bisque;
+    padding: 20px 60px;
+    font-size: 30px;
+}
+.res__list{
+    display: flex;
+    gap: 0 10px;
+}
+input[type=checkbox]{
+    height: 25px;
+    width: 25px;
+    align-self: center;
+}
+input[type=radio]{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    align-self: center;
+}
+.agreement{
+    gap: 0 10px;
+    display: flex;
+}
+.btn{
+    padding: 10px 40px;
+    font-size: 20px;
+}

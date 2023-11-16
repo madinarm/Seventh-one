@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <form>
+    <div class="main">
+        <div class="main__table">
+            <h1 class="title">welcome back</h1>
+            <input class="text" type="text" placeholder="Username" required>
+            <input class="password" type="password" placeholder="Password" required minlength="8">
+            <div class="checkbox">
+                <input id="tick" type="checkbox" name="tick"> 
+                <label for="tick">Remember me</label name="tick">
+            </div>
+            <button class="button">Login</button>
+            <p class="end__text" >Don't have an account? <a class="link" href="#">Sign up</a></p>
+        </div>
+    </div>
+    </form>
+    <form>
+        <div class="registration">
+            <div class="registration__tab">
+                <div class="reg__list">
+                <input class="reg__usern" type="text" placeholder="Username" required>
+                <input class="reg__password" type="password" placeholder="Password" required minlength="8">
+                <button class="reg__button">LOGIN</button>
+                <p class="reg__text" >Not registered? <a class="reg__link" href="#">Create an account</a></p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="document__filling">
+            <div class="filling">
+                <h1 class="filling__title">Input Demos</h1>
+                <p class="title__f">Email?</p>
+                <input class="email" type="email" placeholder="email" required>
+                <p class="title__f">Password</p>
+                <input class="password1" type="password" placeholder="password" required minlength="8">
+                <p class="title__f">What's your gender?</p>
+                <div class="gender">
+                    <label class="title__f" for="Male">Male:</label name="gender">
+                    <input class="radio" id="Male" type="radio" name="gender" required>
+                    <label class="title__f" for="Female">Female:</label name="gender">
+                    <input class="radio" id="Female" type="radio" name="gender">
+                </div>
+                <p class="title__f" >What is your favorite color?</p>
+                <select class="option">
+                    <option class="option__title">Red</option>
+                    <option  class="option__title">Blue</option>
+                    <option class="option__title">Green</option>
+                    <option class="option__title">Purple</option>
+                    <option class="option__title">Yellow</option>
+                </select>
+                <p class="title__f">What's on your mind?</p>
+                <textarea cols="35" rows="15" placeholder="opinion"></textarea>
+                <input class="last__btn" type="submit" placeholder="submit">
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="travel">
+            <div class="travel__res">
+                <h1 class="res__title">Travel reservation form</h1>
+                <h3 class="mandatory"><sup>*</sup>denotes mandatory</h3>
+                <div class="reservation__line">
+                    <p class="res__name">Full name <sup>*</sup>:</p>
+                    <input class="res__buttons" type="text" placeholder="FirstName LastName" required>
+                    <p class="res__name">Email address <sup>*</sup>:</p>
+                    <input class="res__buttons" type="email" placeholder="EMAIL_ADDRESS" required>
+                    <p class="res__name">Select your tour package <sup>*</sup>:</p>
+                    <select class="res__buttons">
+                        <option class="packages">Goa</option>
+                        <option class="packages">Andaman</option>
+                        <option class="packages">Kashmir</option>
+                        <option class="packages">Assam</option>
+                    </select>
+                    <p class="res__name">Arrival date <sup>*</sup>:</p>
+                    <input class="res__buttons" type="date" required>
+                    <p class="res__name">Number of persons <sup>*</sup>:</p>
+                    <input class="res__buttons" type="number" placeholder="UNKNOWN_TYPE" required>
+                    <p class="res__name">What would you want to avail? <sup>*</sup></p>
+                    <div class="res__list">
+                    <label class="res__name" for="boarding">Boarding</label>
+                    <input class="res__buttons" id="boarding" type="checkbox"> 
+                    </div>
+                    <div class="res__list">       
+                    <label class="res__name" for="Fooding">Fooding</label>
+                    <input class="res__buttons" id="Fooding" type="checkbox">
+                    </div>
+                    <div class="res__list">
+                    <label class="res__name" for="seeing">Sight seeing</label>
+                    <input class="res__buttons" id="seeing" type="checkbox">
+                    </div>
+                    <p class="res__name">Discount Cupon code:</p>
+                    <input class="res__buttons" type="password" placeholder="UNKNOWN_TYPE" required>
+                    <p class="res__name">Terms and conditions <sup>*</sup></p>
+                    <div class="agreement">
+                    <input class="res__buttons" id="agreement" type="radio" name="agreement" required>
+                    <label class="res__name" for="agreement">I agree</label name="agreement">
+                    <input class="res__buttons" id="disagreement" type="radio" name="agreement" required>
+                    <label class="res__name" for="disagreement">I disagree</label name="agreement">
+                    </div>
+                    <div>
+                        <button class="btn">Complete reservation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
